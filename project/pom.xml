@@ -14,15 +14,16 @@
         <module>service-registry</module>
         <module>apigw</module>
         <module>config-server</module>
+        <module>organization-service</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
-        <spring.boot.dependencies.version>2.5.7</spring.boot.dependencies.version>
-        <spring.cloud-version>2020.0.3</spring.cloud-version>
+        <spring.boot.maven.plugin.version>2.7.4</spring.boot.maven.plugin.version>
+        <spring.boot.dependencies.version>2.7.4</spring.boot.dependencies.version>
+        <spring.cloud-version>2021.0.4</spring.cloud-version>
         <!--        <image>michaelroyf87/${project.artifactId}:${project.version}</image>-->
     </properties>
 

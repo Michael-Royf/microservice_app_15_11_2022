@@ -20,4 +20,6 @@ public class EmployeeRequest {
     private String email;
     @NotBlank
     private String departmentCode;
+    @NotBlank
+    private String organizationCode;
 }

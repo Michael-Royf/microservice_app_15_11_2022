@@ -10,4 +10,5 @@ import lombok.*;
 public class APIResponseDTO {
     private EmployeeResponse employeeResponse;
     private DepartmentResponse departmentResponse;
+    private OrganizationResponse organizationResponse;
 }
