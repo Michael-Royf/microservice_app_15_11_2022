@@ -15,9 +15,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @EnableEurekaClient
 public class EmployeeApp {
 
-
-
-
     @Bean
     public ModelMapper modelMapper(){
         return new ModelMapper();
